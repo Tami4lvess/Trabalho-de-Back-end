@@ -1,11 +1,11 @@
-# API de Clima com Express
+# API de Clima 🦕 com Express
 
-## Descrição
+## Descrição 
 Este projeto é um servidor Node.js com Express que consome a API pública de clima wttr.in.
 
 A API não precisa de chave e retorna dados meteorológicos em JSON.
 
-## API utilizada
+## API utilizada 🌦️
 https://wttr.in/:cidade?format=j1
 
 ## Como funciona
@@ -19,7 +19,7 @@ Ela recebe o nome da cidade via query param, faz uma requisição HTTP para a AP
 
 http://localhost:3000/clima?cidade=São Paulo
 
-## Exemplo de resposta
+## Exemplo de resposta 
 
 {
   "cidade": "São Paulo",
@@ -33,6 +33,6 @@ http://localhost:3000/clima?cidade=São Paulo
 - Express
 - Fetch (async/await)
 
-## Tratamento de erros
+## Tratamento de erros 
 - Retorna erro 400 se não informar cidade
 - Retorna erro 500 se falhar na API externa
