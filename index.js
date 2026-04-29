@@ -7,7 +7,7 @@ app.use(express.json());
 
 // ROTA DE TESTE
 app.get('/', (req, res) => {
-  res.send('🌺Servidor funcionando🌺');
+  res.send('🌺Servidor funcionando🌺 Bem-Vindo!!🩵');                                  
 });
 
 /*
