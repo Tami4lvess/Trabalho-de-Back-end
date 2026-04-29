@@ -1,0 +1,3 @@
+
+### CLIMA
+GET http://localhost:3000/clima?cidade=Sao%20Paulo
