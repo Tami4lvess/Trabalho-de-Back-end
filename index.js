@@ -61,5 +61,8 @@ app.get('/clima', async (req, res) => {
 
 // START
 app.listen(PORT, () => {
-  console.log(`http://localhost:${PORT}`);
+  console.log(`http://localhost:${PORT}
+ Verificação de servidor da Tata senior, max, plaza,suprema😃
+  Aperte aqui ó --> http://localhost:3000
+    `);
 });
